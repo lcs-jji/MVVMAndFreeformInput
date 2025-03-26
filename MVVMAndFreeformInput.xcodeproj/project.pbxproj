@@ -12,6 +12,7 @@
 		58718D542D945BF200AACEA2 /* MVVMAndFreeformInputApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58718D4F2D945BF200AACEA2 /* MVVMAndFreeformInputApp.swift */; };
 		58718D552D945BF200AACEA2 /* PowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58718D502D945BF200AACEA2 /* PowerView.swift */; };
 		58718D572D945CF700AACEA2 /* Power.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58718D562D945CF400AACEA2 /* Power.swift */; };
+		58718D592D945DCD00AACEA2 /* PowerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58718D582D945DC800AACEA2 /* PowerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		58718D4F2D945BF200AACEA2 /* MVVMAndFreeformInputApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMAndFreeformInputApp.swift; sourceTree = "<group>"; };
 		58718D502D945BF200AACEA2 /* PowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerView.swift; sourceTree = "<group>"; };
 		58718D562D945CF400AACEA2 /* Power.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Power.swift; sourceTree = "<group>"; };
+		58718D582D945DC800AACEA2 /* PowerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		58718D4D2D945BF200AACEA2 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				58718D582D945DC800AACEA2 /* PowerViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58718D592D945DCD00AACEA2 /* PowerViewModel.swift in Sources */,
 				58718D542D945BF200AACEA2 /* MVVMAndFreeformInputApp.swift in Sources */,
 				58718D572D945CF700AACEA2 /* Power.swift in Sources */,
 				58718D552D945BF200AACEA2 /* PowerView.swift in Sources */,
